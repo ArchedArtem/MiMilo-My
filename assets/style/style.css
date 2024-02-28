@@ -1,0 +1,464 @@
+@font-face{
+    font-family: 'Cormorant Infant Light';
+    src: url(/assets/fonts/Cormorant_Infant/CormorantInfant-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat Light';
+    src: url(/assets/fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+body{
+    background-image: url(../img/background.jpg);
+}
+
+*{
+    font-family: 'Montserrat Light', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER HAVIGATION */
+
+header .container .navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .navigation{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .container .navigation .logo p{
+    font-family: 'Cormorant Infant Light', sans-serif;
+    font-size: 25px;
+}
+
+header .container .navigation .navigation_1{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .navigation .navigation_2{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .navigation .navigation_2 .basket{
+    background-image: url(/assets/img/Basket.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+/* HEADER SECTION-NAME */
+
+
+header .section-name{
+    margin-top: 30px;
+    display: flex;
+    height: 600px;
+    justify-content: end;
+}
+
+header .section-name .women{
+    height: 500px;
+    width: 450px;
+    order: 5;
+    align-self: flex-end;
+    position: relative;
+    right: 58.5px;
+}
+
+header .section-name .soap{
+    height: 250px;
+    width: 250px;
+    justify-self: start;
+    position: relative;
+    left: 330px;
+}
+
+header .section-name .foam{
+    height: 180px;
+    width: 180px;
+    align-self: flex-end;
+    position: relative;
+    left: 190px;
+}
+
+header .section-name .watermark{
+    height: 120px;
+    width: 120px;
+    order: 4;
+    position: relative;
+    top: 540px;
+    z-index: 1;
+    right: -395px;
+}
+
+header .section-name p{
+    font-family: 'Cormorant Infant Light', sans-serif;
+    color: rgb(127, 114, 101);
+    font-size: 90px;
+    position: relative;
+    top: 200px;
+    left: 172px;
+    z-index: 1;
+}
+
+/* HEADER SECTION INFO */
+
+header .section-info{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .section-info img{
+    height: 150px;
+    width: 190px;
+    position: relative;
+    z-index: -1;
+    left: -45px;
+}
+
+header .section-info p{
+    font-family: 'Cormorant Infant Light', sans-serif;
+    color: rgb(135, 128, 121);
+    font-size: 35px;
+    position: relative;
+    left: 20px;
+    font-style: italic;
+}
+
+header .section-info span{
+    font-family: 'Montserrat Light', sans-serif;
+    color: rgb(107, 98, 89);
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* MAIN SECTION-COLLECTION */
+
+main .section-collection{
+    margin-bottom: 430px;
+    margin-top: 130px;
+}
+
+main .section-collection .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section-collection .container .card{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section-collection .container .card .card-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main .section-collection .container .card .card-info .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+
+main .section-collection .container .card .collection{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+main .section-collection .container .card .collection p{
+    color: rgb(114, 111, 108);
+}
+
+main .section-collection .container .card .collection .line{
+    background-color: rgb(181, 176, 172);
+    width: 50px;
+    height: 3px;
+}
+
+main .section-collection .container .card .collection p{
+    margin-left: 15px;
+}
+
+#card-info-img{
+    height: 30px;
+    width: 30px;
+}
+
+#card_2{
+    margin-top: 49.2px;
+    position: relative;
+    right: -100px;
+}
+
+main .section-collection .arrow_right{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    top: 250px;
+    color: rgb(181, 176, 172);
+}
+
+main .section-collection .img_soap{
+    height: 250px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+/* MAIN SECTION-HISTORY */ 
+ 
+main .section-history{ 
+    height: 900px; 
+} 
+ 
+main .section-history .container .text .history .line{ 
+    width: 50px; 
+    height: 3px; 
+    background-color: rgb(181, 176, 172);
+} 
+ 
+main .section-history .container .text .history{ 
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 150px; 
+    color: rgb(114, 111, 108);
+} 
+ 
+main .section-history .container{ 
+    height: 900px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+} 
+
+main .section-history .container .img_text{
+    height: 600px;
+    justify-self: end;
+}
+ 
+main .section-history .container .text{ 
+    width: 802.82px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 460px; 
+} 
+ 
+main .section-history .container .text .p_minimalizm{ 
+    font-family: 'Cormorant Infant Light'; 
+    font-size: 58px; 
+    font-style: italic; 
+    color: rgb(68, 68, 67); 
+} 
+ 
+main .section-history .container .text .p_mimilo_info{ 
+    font-family: 'Cormorant Infant Light'; 
+    font-size: 25px; 
+    font-style: italic; 
+    color: rgb(107, 107, 103); 
+} 
+ 
+main .section-history .container .text .creator .photo{ 
+    width: 75px; 
+    height: 75px; 
+    background-image: url(../img/women.png); 
+    background-repeat: no-repeat; 
+} 
+ 
+main .section-history .container .text .creator{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 200px; 
+} 
+ 
+main .section-history .rose{
+    width: 300px;
+    height: 400px; 
+    position: relative; 
+    top: -400px;
+    right: -185px;
+} 
+ 
+main .section-history .bottle{ 
+    width: 250px;
+    height: 250px;
+    position: relative; 
+    right: -500px;
+    bottom: 150px;
+} 
+ 
+main .section-history .container .text .creator .p_mila{ 
+    text-decoration: underline; 
+    color: rgb(68, 68, 67); 
+} 
+ 
+main .section-history .container .text .creator .p_creator{ 
+    color: rgb(107, 107, 103); 
+} 
+ 
+/* MAIN SECTION-PRINCIPLES */ 
+ 
+main .section-principles{ 
+    margin-bottom: 200px; 
+    margin-top: 0px;
+} 
+ 
+main .section-principles .container{ 
+    height: 200px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+} 
+ 
+main .section-principles .container .card{ 
+    height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+ 
+main .section-principles .container .card p{ 
+    font-family: 'Cormorant Infant Light'; 
+    font-size: 22px; 
+    color: rgb(107, 107, 103); 
+    font-style: italic;
+}
+
+ /* MAIN SECTION PRODUCT-ORDER */
+
+main .product-order{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ main .product-order .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+
+main .product-order .text p{
+    font-family: 'Cormorant Infant Light';
+    font-size: 130px;
+    color: rgb(107, 107, 103);
+}
+
+main .product-order .card{
+    background-image: url(../img/13.jpg);
+    background-position: -50px -90px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: -450px;
+}
+
+main .product-order .card p{
+    color: white;
+}
+
+main .product-order .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .product-order .card .buy_button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .product-order .card .card_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+/* MAIN SECTION_SUBSCRIBE */
+
+main .section-subscribe{
+    margin-top: 0px;
+}
+
+main .section-subscribe .container{
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .section-subscribe .container .text{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section-subscribe .container .photos img{
+    width: 250px;
+    height: 250px;
+}
+
+main .section-subscribe .container .photos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section-subscribe .container .text p{
+    color: rgb(107, 107, 103);
+}
+
+main .section-subscribe .container .text span{
+    color: rgb(40, 40, 39); 
+    font-weight: 600;
+    text-decoration: underline;
+}
