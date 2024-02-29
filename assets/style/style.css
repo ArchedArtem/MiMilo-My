@@ -57,7 +57,7 @@ header .container .navigation .navigation_2{
 }
 
 header .container .navigation .navigation_2 .basket{
-    background-image: url(/assets/img/Basket.svg);
+    background-image: url(../img/Basket.svg);
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
