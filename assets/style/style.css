@@ -69,6 +69,7 @@ header .container .navigation .navigation_2 .basket{
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 /* HEADER SECTION-NAME */
@@ -95,7 +96,7 @@ header .section-name .soap{
     width: 250px;
     justify-self: start;
     position: relative;
-    left: 424px;
+    left: 368px;
 }
 
 header .section-name .foam{
@@ -214,6 +215,7 @@ main .section-collection .container .card .collection p{
 #card-info-img{
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 #card_2{
@@ -477,9 +479,10 @@ main .section-subscribe .container .text span{
 /* MAIN SECTION-FORM */
 
 main .section-form{
+    padding-bottom: 100px;
     margin-top: 200px;
     background-image: url(../img/19.jpg);
-    height: 350px;
+    height: 450px;
 }
 
 main .section-form .container{
@@ -561,4 +564,73 @@ main .section-form .container .form_auth button:hover{
     background-color: rgb(68, 68, 67);
     color: rgb(205, 201, 201);
     transition: .3s;
+}
+
+/* FOOTER */
+
+footer{
+    background-image: url(../img/20.jpg);
+    background-position: -200px;
+    height: 300px;
+}
+
+footer .container{
+    color: rgb(192, 188, 188);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .info{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer .container .info .top{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container .info p{
+    font-size: 14px;
+}
+
+footer .container .info .p_mimilo{
+    font-size: 20px;
+    color: rgb(224, 221, 221);
+}
+
+footer .container .address{
+    height: 70px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container .icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+footer .container .icons .icon img{
+    height: 20px;
+    width: 20px;
 }
