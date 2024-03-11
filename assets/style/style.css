@@ -626,3 +626,87 @@ footer .container .icons .icon img{
     height: 20px;
     width: 20px;
 }
+
+
+
+
+@media (max-width: 1240px){
+    .container{
+        width: 960px;
+    }
+}
+
+@media (max-width: 1000px){
+    .container{
+        width: 720px;
+    }
+}
+
+@media (max-width: 740px){
+    .container{
+        width: 98%;
+    }
+
+    header .container .navigation p{
+        font-size: 12px;
+    }
+
+    header .container .navigation .navigation_1{
+        width: 150px;
+    }
+
+    header .container .navigation .navigation_2{
+        width: 250px;
+    }
+
+    header .section-name .soap{
+        position: inherit;
+    }
+
+    header .section-name p{
+        position: inherit;
+        font-size: 12px;
+    }
+
+    header .section-name .women{
+        position: inherit;
+        height: 350px;
+        width: 300px;
+    }
+
+    header .section-name .watermark{
+        position: inherit;
+        height: 70px;
+        width: 70px;
+    }
+
+    header .section-name .foam{
+        position: inherit;
+    }
+
+    .section-collection .container .card img{
+        height: 200px;
+        width: 200px;
+    }
+    main .section-collection .img_soap{
+        height: 200px;
+        position: inherit;
+    }
+
+    main .section-subscribe .container{
+        width: 98%;
+    }
+
+    main .section-subscribe .container .photos img{
+        height: 100px;
+        width: 100px;
+    }
+
+    main .section-history .bottle{
+        position: inherit;
+    }
+
+    main .product-order .text p{
+        font-size: 100px;
+    }
+}
