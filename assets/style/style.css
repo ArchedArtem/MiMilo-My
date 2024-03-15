@@ -644,11 +644,11 @@ footer .container .icons .icon img{
 
 @media (max-width: 740px){
     .container{
-        width: 98%;
+        width: 720px;
     }
 
     header .container .navigation p{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     header .container .navigation .navigation_1{
@@ -659,29 +659,38 @@ footer .container .icons .icon img{
         width: 250px;
     }
 
+    
+
     header .section-name .soap{
-        position: inherit;
+        position: absolute;
+        left: 10px;
+        height: 120px;
+        width: 120px;
     }
 
     header .section-name p{
-        position: inherit;
+        position: absolute;
         font-size: 12px;
     }
 
     header .section-name .women{
-        position: inherit;
-        height: 350px;
-        width: 300px;
+        position: absolute;
+        left: 100px;
+        height: 250px;
+        width: 200px;
     }
 
     header .section-name .watermark{
-        position: inherit;
+        position: absolute;
+        left: 0px;
         height: 70px;
         width: 70px;
     }
 
     header .section-name .foam{
-        position: inherit;
+        position: absolute;
+        height: 100px;
+        width: 100px;
     }
 
     .section-collection .container .card img{
@@ -689,8 +698,13 @@ footer .container .icons .icon img{
         width: 200px;
     }
     main .section-collection .img_soap{
-        height: 200px;
-        position: inherit;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+    }
+
+    main .section-collection .arrow_right{
+        position: absolute;
     }
 
     main .section-subscribe .container{
@@ -700,13 +714,85 @@ footer .container .icons .icon img{
     main .section-subscribe .container .photos img{
         height: 100px;
         width: 100px;
+        flex-wrap: wrap;
     }
 
     main .section-history .bottle{
-        position: inherit;
+        position: absolute;
+        left: 50px;
     }
 
     main .product-order .text p{
         font-size: 100px;
+    }
+
+    header .section-info p{
+        font-size: 10px;
+    }
+
+    .section-collection .container .card img{
+        height: 120px;
+        width: 120px;
+    }
+
+    main .section-collection .container .card .card-info .info{
+        font-size: 10px;
+    }
+
+    main .section-collection .container .card{
+        width: 120px
+    }
+
+    #card_2{
+        position: absolute;
+        left: 140px;
+    }
+
+    main .product-order .text p{
+        font-size: 25px;
+    }
+
+    main .product-order .card{
+        height: 200px;
+        width: 170px;
+        position: absolute;
+        left: 0px;
+    }
+
+    main .section-history .container .text .p_minimalizm{
+        font-size: 15px;
+    }
+
+    main .section-history .container .text .p_mimilo_info{
+        font-size: 13px;
+    }
+
+    main .section-history .rose{
+        position: absolute;
+        left: 50px;
+    }
+
+    main .section-principles .container .card p{
+        font-size: 12px;
+    }
+
+    main .section-principles .container{
+        flex-wrap: wrap;
+    }
+
+    main .section-form .container .text{
+        width: 30%;
+    }
+
+    main .section-form .container .form_auth form{
+        width: 70%;
+    }
+
+    main .section-form .container .text .p_1{
+        font-size: 13px;
+    }
+
+    main .section-form .container .text .p_2{
+        font-size: 10px;
     }
 }
