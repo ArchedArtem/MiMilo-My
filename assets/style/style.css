@@ -684,42 +684,44 @@ footer .container .icons .icon img{
         height: 100%;
     }
 
-    
+    header .section-name{
+        height: 400px;
+    }
 
     header .section-name .soap{
         position: absolute;
         left: 7.5%;
-        height: 120px;
-        width: 120px;
+        height: 15%;
+        width: 20%;
     }
 
     header .section-name p{
         position: absolute;
-        font-size: 45px;
+        font-size: 7vw;
         top: 290px;
-        left: 170px;
+        left: 28%;
     }
 
     header .section-name .women{
         position: absolute;
         right: 7.5%;
         top: 250px;
-        height: 250px;
-        width: 200px;
+        height: 30%;
+        width: 30%;
     }
 
     header .section-name .watermark{
         position: absolute;
         right: 3%;
         top: 465px;
-        height: 70px;
-        width: 70px;
+        height: 7%;
+        width: 10%;
     }
 
     header .section-name .foam{
         position: absolute;
-        height: 100px;
-        width: 100px;
+        height: 10%;
+        width: 13%;
         top: 400px;
         left: 100px;
     }
@@ -780,8 +782,16 @@ footer .container .icons .icon img{
         font-size: 100px;
     }
 
+    header .section-info{
+        margin-top: 20px;
+    }
+
     header .section-info p{
-        font-size: 10px;
+        font-size: 4vw;
+    }
+
+    header .section-info img{
+        right: 35%;
     }
 
     .section-collection .container .card img{
