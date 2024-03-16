@@ -57,11 +57,11 @@ header .container .navigation .navigation_2{
 }
 
 header .container .navigation .navigation_2 .basket{
-    background-image: url(../img/Basket.svg);
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
     cursor: pointer;
+    object-fit: contain;
 }
 
 /* HEADER SECTION-NAME */
@@ -649,18 +649,39 @@ footer .container .icons .icon img{
 
     header .container .navigation{
         flex-direction: column;
+        height: 140px;
     }
 
     header .container .navigation p{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     header .container .navigation .navigation_1{
         width: 85%;
+        justify-content: space-around;
     }
 
     header .container .navigation .navigation_2{
-        width: 250px;
+        width: 85%;
+    }
+
+    header .container .navigation .logo p{
+        font-size: 30px;
+        font-weight: 550;
+    }
+
+    header .container .navigation .logo{
+        order: -1;
+    }
+
+    header .container .navigation .navigation_2 .basket{
+        width: 35px;
+        height: 35px;
+    }
+
+    header .container .navigation .navigation_2 .basket img{
+        width: 100%;
+        height: 100%;
     }
 
     
