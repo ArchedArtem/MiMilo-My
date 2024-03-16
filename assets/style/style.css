@@ -652,11 +652,11 @@ footer .container .icons .icon img{
     }
 
     header .container .navigation p{
-        font-size: 11px;
+        font-size: 14px;
     }
 
     header .container .navigation .navigation_1{
-        width: 150px;
+        width: 85%;
     }
 
     header .container .navigation .navigation_2{
