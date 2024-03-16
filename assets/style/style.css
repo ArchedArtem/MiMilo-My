@@ -644,7 +644,11 @@ footer .container .icons .icon img{
 
 @media (max-width: 740px){
     .container{
-        width: 720px;
+        width: 98%;
+    }
+
+    header .container .navigation{
+        flex-direction: column;
     }
 
     header .container .navigation p{
@@ -717,6 +721,26 @@ footer .container .icons .icon img{
         flex-wrap: wrap;
     }
 
+    main .section-subscribe .container .photos{
+        flex-direction: column;
+    }
+
+    main .section-subscribe .container .text{
+        width: 100%;
+    }
+
+    main .section-history .container .text{
+        width: 100%;
+    }
+
+    main .section-history .container .text .creator{
+        width: 30%;
+    }
+
+    main .product-order{
+        justify-content: start;
+    }
+
     main .section-history .bottle{
         position: absolute;
         left: 50px;
@@ -755,7 +779,7 @@ footer .container .icons .icon img{
     main .product-order .card{
         height: 200px;
         width: 170px;
-        position: absolute;
+        position: relative;
         left: 0px;
     }
 
@@ -777,15 +801,24 @@ footer .container .icons .icon img{
     }
 
     main .section-principles .container{
-        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
     }
 
     main .section-form .container .text{
-        width: 30%;
+        height: 30%;
+    }
+
+    main .section-form .container .form_auth{
+        height: 70%;
     }
 
     main .section-form .container .form_auth form{
-        width: 70%;
+        width: 75%;
+    }
+
+    main .section-form .container .form_auth form .box{
+        font-size: 12px;
     }
 
     main .section-form .container .text .p_1{
@@ -794,5 +827,13 @@ footer .container .icons .icon img{
 
     main .section-form .container .text .p_2{
         font-size: 10px;
+    }
+
+    main .section-form .container{
+        flex-direction: column;
+    }
+
+    footer .container{
+        flex-direction: column;
     }
 }
