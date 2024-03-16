@@ -688,26 +688,30 @@ footer .container .icons .icon img{
 
     header .section-name .soap{
         position: absolute;
-        left: 10px;
+        left: 7.5%;
         height: 120px;
         width: 120px;
     }
 
     header .section-name p{
         position: absolute;
-        font-size: 12px;
+        font-size: 45px;
+        top: 290px;
+        left: 170px;
     }
 
     header .section-name .women{
         position: absolute;
-        left: 100px;
+        right: 7.5%;
+        top: 250px;
         height: 250px;
         width: 200px;
     }
 
     header .section-name .watermark{
         position: absolute;
-        left: 0px;
+        right: 3%;
+        top: 465px;
         height: 70px;
         width: 70px;
     }
@@ -716,6 +720,8 @@ footer .container .icons .icon img{
         position: absolute;
         height: 100px;
         width: 100px;
+        top: 400px;
+        left: 100px;
     }
 
     .section-collection .container .card img{
@@ -767,6 +773,7 @@ footer .container .icons .icon img{
     main .section-history .bottle{
         position: absolute;
         left: 50px;
+        top: 3000px;
     }
 
     main .product-order .text p{
