@@ -726,10 +726,12 @@ footer .container .icons .icon img{
         height: 120px;
         width: 120px;
         position: absolute;
+        top: 1500px;
     }
 
     main .section-collection .arrow_right{
         position: absolute;
+        top: 1500px;
     }
 
     main .section-subscribe .container{
