@@ -290,7 +290,6 @@ main .section-history .container .text .p_mimilo_info{
 main .section-history .container .text .creator .photo{ 
     width: 75px; 
     height: 75px; 
-    background-image: url(../img/women.png); 
     background-repeat: no-repeat; 
 } 
  
@@ -713,7 +712,7 @@ footer .container .icons .icon img{
     header .section-name .watermark{
         position: absolute;
         right: 3%;
-        top: 57%;
+        top: 55%;
         height: 7%;
         width: 10%;
     }
@@ -818,6 +817,17 @@ footer .container .icons .icon img{
     main .section-history .container .text .creator{
         width: 35%;
         align-self: center;
+    }
+
+    main .section-history .container .text .creator .photo img{
+        width: 80%;
+        height: 80%;
+    }
+
+    main .section-history .container .text .creator .photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     
@@ -974,6 +984,11 @@ footer .container .icons .icon img{
 
     main .section-form .container .form_auth button{
         position: absolute;
+        top: 3670px;
+        left: 35%;
+        width: 30%;
+        height: 5%;
+        font-size: 3vw;
     }
 
     main .section-form .container .form_auth form .box{
@@ -999,6 +1014,30 @@ footer .container .icons .icon img{
     }
 
     footer .container{
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer .container .icons{
+        width: 40%;
+    }
+
+    footer .container .info{
+        width: 40%;
+    }
+
+    footer .container .address{
+        width: 50%;
+    }
+
+    footer .container .info .p_mimilo{
+        font-size: 3vw;
+    }
+
+    footer .container .info p{
+        font-size: 1.6vw;
+    }
+
+    footer .container .address p{
+        font-size: 1.8vw;
     }
 }
