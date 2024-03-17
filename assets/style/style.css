@@ -725,27 +725,6 @@ footer .container .icons .icon img{
         top: 400px;
         left: 100px;
     }
-
-    
-    main .section-subscribe .container{
-        width: 98%;
-    }
-    
-    main .section-subscribe .container .photos img{
-        height: 100px;
-        width: 100px;
-        flex-wrap: wrap;
-    }
-    
-    main .section-subscribe .container .photos{
-        flex-direction: column;
-    }
-    
-    main .section-subscribe .container .text{
-        width: 100%;
-    }
-    
-    
     
     header .section-info{
         margin-top: 20px;
@@ -912,7 +891,7 @@ footer .container .icons .icon img{
     
     main .section-principles{
         height: 170px;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
     
     main .section-principles .container .card{
@@ -936,7 +915,7 @@ footer .container .icons .icon img{
         height: 15%;
         width: 35%;
         position: absolute;
-        top: 2560px;
+        top: 2510px;
     }
 
     main .product-order .card p{
@@ -946,6 +925,35 @@ footer .container .icons .icon img{
     main .product-order .card .buy_button{
         width: 60%;
         height: 20%;
+    }
+
+    main .section-subscribe .container{
+        width: 98%;
+        height: 180px;
+    }
+    
+    main .section-subscribe .container .photos img{
+        height: 100%;
+        width: 15%;
+        flex-wrap: wrap;
+    }
+    
+    main .section-subscribe .container .photos{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    main .section-subscribe .container .text{
+        width: 62%;
+    }
+
+    main .section-subscribe .container .text p{
+        font-size: 2.8vw;
+    }
+
+    .inst_photo{
+        width: 32%;
+        height: 32%;
     }
 
     main .section-form .container .text{
