@@ -745,24 +745,10 @@ footer .container .icons .icon img{
         width: 100%;
     }
     
-    main .section-history .container .text{
-        width: 100%;
-    }
-    
-    main .section-history .container .text .creator{
-        width: 30%;
-    }
     
     main .product-order{
         justify-content: start;
     }
-    
-    main .section-history .bottle{
-        position: absolute;
-        left: 50px;
-        top: 3000px;
-    }
-    
     main .product-order .text p{
         font-size: 100px;
     }
@@ -796,7 +782,7 @@ footer .container .icons .icon img{
         width: 5%;
         height: 5%;
     }
-
+    
     main .section-collection .container .card .collection p{
         font-size: 2vw;
     }
@@ -815,32 +801,32 @@ footer .container .icons .icon img{
         height: 100%;
         width: 100%;
     }
-
+    
     .section-collection .container .card{
         width: 30% !important;
         height: 100% !important;
         align-items: center;
     }
-
+    
     #card-info-img{
         align-self: flex-start;
         height: 15%;
         width: 15%;
     }
-
+    
     main .section-collection .container .card .card-info .info{
         font-size: 10px;
     }
-
+    
     main .section-collection .container .card .card-info .info p{
         font-size: 1.5vw;
     }
-
+    
     main .section-collection .container .card .card-info{
         width: 100%;
         height: 30%;
     }
-
+    
     #card_2{
         position: inherit;
         margin-top: 7%;
@@ -856,13 +842,50 @@ footer .container .icons .icon img{
         position: relative;
         left: 0px;
     }
+    
+    main .section-history .container .text .creator{
+        width: 35%;
+        align-self: center;
+    }
+    
+    main .section-history .bottle{
+        position: absolute;
+        left: 50px;
+        top: 3000px;
+    }
 
     main .section-history .container .text .p_minimalizm{
-        font-size: 15px;
+        font-size: 4.5vw;
+        align-self: center;
+    }
+    
+    main .section-history .container .text{
+        height: 35%;
+        width: 100%;
     }
 
     main .section-history .container .text .p_mimilo_info{
-        font-size: 13px;
+        font-size: 3vw;
+        align-self: center;
+        width: 85%;
+    }
+
+    main .section-history .container .text .history{
+        margin-left: 5%;
+    }
+
+    main .section-history .container .text .history p{
+        font-size: 3vw;
+    }
+
+    
+
+    .p_mila{
+        font-size: 2.5vw;
+    }
+
+    .p_creator{
+        font-size: 2.5vw;
     }
 
     main .section-history .rose{
