@@ -842,25 +842,29 @@ footer .container .icons .icon img{
         position: relative;
         left: 0px;
     }
+
+    main .section-history{
+        height: 300px;
+        margin-bottom: 600px;
+    }
+
+    main .section-history .container{
+        height: 100%;
+    }
     
     main .section-history .container .text .creator{
         width: 35%;
         align-self: center;
     }
     
-    main .section-history .bottle{
-        position: absolute;
-        left: 50px;
-        top: 3000px;
-    }
-
+    
     main .section-history .container .text .p_minimalizm{
         font-size: 4.5vw;
         align-self: center;
     }
     
     main .section-history .container .text{
-        height: 35%;
+        height: 100%;
         width: 100%;
     }
 
@@ -869,16 +873,29 @@ footer .container .icons .icon img{
         align-self: center;
         width: 85%;
     }
-
+    
     main .section-history .container .text .history{
         margin-left: 5%;
     }
-
+    
     main .section-history .container .text .history p{
         font-size: 3vw;
     }
-
     
+    main .section-history .bottle{
+        position: absolute;
+        height: 15%;
+        width: 20%;
+        left: 5%;
+        top: 1900px;
+    }
+
+    main .section-history .container .img_text{
+        height: 40%;
+        right: 30%;
+        position: absolute;
+        top: 1650px;
+    }
 
     .p_mila{
         font-size: 2.5vw;
@@ -890,7 +907,10 @@ footer .container .icons .icon img{
 
     main .section-history .rose{
         position: absolute;
-        left: 50px;
+        height: 40%;
+        width: 30%;
+        top: 1650px;
+        right: 10%;
     }
 
     main .section-principles .container .card p{
