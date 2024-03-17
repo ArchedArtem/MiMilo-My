@@ -746,13 +746,7 @@ footer .container .icons .icon img{
     }
     
     
-    main .product-order{
-        justify-content: start;
-    }
-    main .product-order .text p{
-        font-size: 100px;
-    }
-
+    
     header .section-info{
         margin-top: 20px;
     }
@@ -790,7 +784,7 @@ footer .container .icons .icon img{
         height: 200px;
         margin-bottom: 200px;
     }
-
+    
     main .section-collection .container{
         margin-left: 3%;
         justify-content: space-around;
@@ -831,21 +825,11 @@ footer .container .icons .icon img{
         position: inherit;
         margin-top: 7%;
     }
-
-    main .product-order .text p{
-        font-size: 25px;
-    }
-
-    main .product-order .card{
-        height: 200px;
-        width: 170px;
-        position: relative;
-        left: 0px;
-    }
-
+    
+    
     main .section-history{
         height: 300px;
-        margin-bottom: 600px;
+        margin-bottom: 550px;
     }
 
     main .section-history .container{
@@ -889,7 +873,7 @@ footer .container .icons .icon img{
         left: 5%;
         top: 1900px;
     }
-
+    
     main .section-history .container .img_text{
         height: 40%;
         right: 30%;
@@ -904,7 +888,7 @@ footer .container .icons .icon img{
     .p_creator{
         font-size: 2.5vw;
     }
-
+    
     main .section-history .rose{
         position: absolute;
         height: 40%;
@@ -912,14 +896,56 @@ footer .container .icons .icon img{
         top: 1650px;
         right: 10%;
     }
-
+    
     main .section-principles .container .card p{
-        font-size: 12px;
+        font-size: 1.6vw;
+    }
+    
+    main .section-principles .container .card img{
+        height: 20%;
+    }
+    
+    main .section-principles .container{
+        width: 100%;
+        height: 100%;
+    }
+    
+    main .section-principles{
+        height: 170px;
+        margin-bottom: 150px;
+    }
+    
+    main .section-principles .container .card{
+        width: 30%;
+        height: 100%;
+    }
+    
+    main .product-order{
+        height: 300px;
+        margin-bottom: 100px;
+    }
+    main .product-order .text p{
+        font-size: 100px;
     }
 
-    main .section-principles .container{
-        flex-direction: column;
-        width: 100%;
+    main .product-order .text p{
+        font-size: 7vw;
+    }
+    
+    main .product-order .card{
+        height: 15%;
+        width: 35%;
+        position: absolute;
+        top: 2560px;
+    }
+
+    main .product-order .card p{
+        font-size: 1.5vw;
+    }
+
+    main .product-order .card .buy_button{
+        width: 60%;
+        height: 20%;
     }
 
     main .section-form .container .text{
