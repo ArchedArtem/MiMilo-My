@@ -639,6 +639,404 @@ footer .container .icons .icon img{
     .container{
         width: 720px;
     }
+
+    header .container .navigation{
+        flex-direction: column;
+        height: 140px;
+    }
+
+    header .container .navigation p{
+        font-size: 15px;
+    }
+
+    header .container .navigation .navigation_1{
+        width: 85%;
+        justify-content: space-around;
+    }
+
+    header .container .navigation .navigation_2{
+        width: 85%;
+    }
+
+    header .container .navigation .logo p{
+        font-size: 30px;
+        font-weight: 550;
+    }
+
+    header .container .navigation .logo{
+        order: -1;
+    }
+
+    header .container .navigation .navigation_2 .basket{
+        width: 35px;
+        height: 35px;
+    }
+
+    header .container .navigation .navigation_2 .basket img{
+        width: 100%;
+        height: 100%;
+    }
+
+    header .section-name{
+        height: 400px;
+    }
+
+    header .section-name .soap{
+        position: absolute;
+        left: 7.5%;
+        height: 15%;
+        width: 20%;
+    }
+
+    header .section-name p{
+        position: absolute;
+        font-size: 7vw;
+        top: 290px;
+        left: 28%;
+    }
+
+    header .section-name .women{
+        position: absolute;
+        right: 7.5%;
+        top: 250px;
+        height: 28%;
+        width: 30%;
+    }
+
+    header .section-name .watermark{
+        position: absolute;
+        right: 3%;
+        top: 55%;
+        height: 7%;
+        width: 10%;
+    }
+
+    header .section-name .foam{
+        position: absolute;
+        height: 10%;
+        width: 13%;
+        top: 400px;
+        left: 100px;
+    }
+    
+    header .section-info{
+        margin-top: 20px;
+    }
+
+    header .section-info p{
+        font-size: 4vw;
+    }
+    
+    header .section-info img{
+        right: 35%;
+    }
+    
+    .section-collection .container .card img{
+        height: 200px;
+        width: 200px;
+    }
+    main .section-collection .img_soap{
+        height: 15%;
+        width: 20%;
+        position: inherit;
+        left: 90%;
+    }
+
+    main .section-collection .arrow_right{
+        position: inherit;
+        left: 70%;
+        width: 5%;
+        height: 5%;
+    }
+    
+    main .section-collection .container .card .collection p{
+        font-size: 2vw;
+    }
+    main .section-collection{
+        height: 200px;
+        margin-bottom: 200px;
+    }
+    
+    main .section-collection .container{
+        margin-left: 3%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .section-collection .container .card img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .section-collection .container .card{
+        width: 30% !important;
+        height: 100% !important;
+        align-items: center;
+    }
+    
+    #card-info-img{
+        align-self: flex-start;
+        height: 15%;
+        width: 15%;
+    }
+    
+    main .section-collection .container .card .card-info .info{
+        font-size: 10px;
+    }
+    
+    main .section-collection .container .card .card-info .info p{
+        font-size: 1.5vw;
+    }
+    
+    main .section-collection .container .card .card-info{
+        width: 100%;
+        height: 30%;
+    }
+    
+    #card_2{
+        position: inherit;
+        margin-top: 7%;
+    }
+    
+    
+    main .section-history{
+        height: 450px;
+        margin-bottom: 550px;
+    }
+
+    main .section-history .container{
+        height: 100%;
+    }
+    
+    main .section-history .container .text .creator{
+        width: 35%;
+        align-self: center;
+    }
+
+    main .section-history .container .text .creator .photo img{
+        width: 80%;
+        height: 80%;
+    }
+
+    main .section-history .container .text .creator .photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    main .section-history .container .text .p_minimalizm{
+        font-size: 4.5vw;
+        align-self: center;
+        width: 85%;
+    }
+    
+    main .section-history .container .text{
+        height: 100%;
+        width: 100%;
+    }
+
+    main .section-history .container .text .p_mimilo_info{
+        font-size: 3vw;
+        align-self: center;
+        width: 85%;
+        margin-bottom: 5%
+    }
+    
+    main .section-history .container .text .history{
+        margin-bottom: 5%;
+    }
+    
+    main .section-history .container .text .history p{
+        font-size: 2vw;
+    }
+    
+    main .section-history .bottle{
+        position: absolute;
+        height: 15%;
+        width: 20%;
+        left: 5%;
+        top: 2050px;
+    }
+    
+    main .section-history .container .img_text{
+        height: 40%;
+        right: 30%;
+        position: absolute;
+        top: 1800px;
+    }
+
+    .p_mila{
+        font-size: 2.5vw;
+    }
+
+    .p_creator{
+        font-size: 2.5vw;
+    }
+    
+    main .section-history .rose{
+        position: absolute;
+        height: 40%;
+        width: 30%;
+        top: 1800px;
+        right: 10%;
+    }
+    
+    main .section-principles .container .card p{
+        font-size: 1.6vw;
+    }
+    
+    main .section-principles .container .card img{
+        height: 20%;
+    }
+    
+    main .section-principles .container{
+        width: 100%;
+        height: 100%;
+    }
+    
+    main .section-principles{
+        height: 170px;
+        margin-bottom: 100px;
+    }
+    
+    main .section-principles .container .card{
+        width: 30%;
+        height: 100%;
+    }
+    
+    main .product-order{
+        height: 300px;
+        margin-bottom: 100px;
+    }
+    main .product-order .text p{
+        font-size: 100px;
+    }
+
+    main .product-order .text p{
+        font-size: 7vw;
+    }
+    
+    main .product-order .card{
+        height: 15%;
+        width: 35%;
+        position: absolute;
+        top: 2660px;
+    }
+
+    main .product-order .card p{
+        font-size: 1.5vw;
+    }
+
+    main .product-order .card .buy_button{
+        width: 60%;
+        height: 20%;
+    }
+
+    main .section-subscribe .container{
+        width: 98%;
+        height: 180px;
+    }
+    
+    main .section-subscribe .container .photos img{
+        height: 100%;
+        width: 15%;
+        flex-wrap: wrap;
+    }
+    
+    main .section-subscribe .container .photos{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    main .section-subscribe .container .text{
+        width: 62%;
+    }
+
+    main .section-subscribe .container .text p{
+        font-size: 2.8vw;
+    }
+
+    .inst_photo{
+        width: 32%;
+        height: 32%;
+    }
+
+    main .section-form .container .text{
+        height: 30%;
+    }
+
+    main .section-form .container .form_auth{
+        height: 70%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    main .section-form .container .form_auth form{
+        width: 70%;
+    }
+
+    main .section-form .container .form_auth button{
+        position: absolute;
+        top: 3990px;
+        left: 35%;
+        width: 30%;
+        height: 5%;
+        font-size: 3vw;
+    }
+
+    main .section-form .container .form_auth form .box{
+        font-size: 2vw;
+    }
+
+    main .section-form .container .text .p_1{
+        align-self: center;
+        font-size: 7vw;
+    }
+
+    main .section-form .container .text .p_2{
+        align-self: center;
+        font-size: 3vw;
+        margin-bottom: 5%;
+    }
+
+    main .section-form .container{
+        flex-direction: column;
+    }
+
+    main .section-form{
+        height: 800px;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    footer .container .icons{
+        width: 40%;
+    }
+
+    footer .container .info{
+        width: 40%;
+    }
+
+    footer .container .address{
+        width: 50%;
+    }
+
+    footer .container .info .p_mimilo{
+        font-size: 3vw;
+    }
+
+    footer .container .info p{
+        font-size: 1.6vw;
+    }
+
+    footer .container .address p{
+        font-size: 1.8vw;
+    }
 }
 
 @media (max-width: 740px){
